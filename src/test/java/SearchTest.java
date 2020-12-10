@@ -2,10 +2,10 @@ import org.junit.Test;
 
 public class SearchTest {
     SocialNetworks network = new SocialNetworks();
-    Search search = new Search();
+    SocialNetworks.Search search = new SocialNetworks.Search();
 
     @Test
     public void searchTest(){
-        Search.printPersons(network.getNetwork(), search);
+        SocialNetworks.Search.printPersons(network.getNetwork(), search);
     }
 }
